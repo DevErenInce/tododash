@@ -1,0 +1,11 @@
+{
+  "general": {
+    "button": {
+      "save": "Kaydet",
+      "language_change": "Dil Değiştir"
+    }
+  },
+  "home": {
+    "title": "Ana Sayfa"
+  }
+}

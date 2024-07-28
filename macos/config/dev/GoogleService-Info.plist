@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDBgcFhN_D5eOgDJKgWJfZWNn6d6YMuZmo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>516408653455</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.wecann.app.tododash.mac.dev</string>
+	<key>PROJECT_ID</key>
+	<string>tododash-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tododash-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:516408653455:ios:f7e88200af3bc943afe2fa</string>
+</dict>
+</plist>

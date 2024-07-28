@@ -1,0 +1,43 @@
+name: model
+description: Model package pet-in project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Core
+  equatable: ^2.0.5
+
+  #Modules
+  core:
+    path: ../core
+
+  generation:
+    path: ../generation
+  
+  #Cache Model
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+
+  #Utils
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  very_good_analysis: ^5.1.0
+
+  build_runner: ^2.4.7
+
+  isar_generator: ^3.1.0+1
+  json_serializable: ^6.7.1
+
+
+flutter:

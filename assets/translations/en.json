@@ -1,0 +1,11 @@
+{
+  "general": {
+    "button": {
+      "save": "Save",
+      "language_change": "Change Language"
+    }
+  },
+  "home": {
+    "title": "Home Page"
+  }
+}
