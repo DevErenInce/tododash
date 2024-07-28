@@ -51,6 +51,21 @@ android {
             signingConfig = signingConfigs.debug
         }
     }
+
+    flavorDimensions "flavors"
+
+    productFlavors {
+        dev {
+            dimension "flavors"
+            resValue "string", "app_name", "TodoDash Dev"
+            applicationId "com.wecann.app.tododash.dev"
+        }
+        prod {
+            dimension "flavors"
+            resValue "string", "app_name", "TodoDash"
+            applicationId "com.wecann.app.tododash"
+        }
+    }
 }
 
 flutter {
