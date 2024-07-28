@@ -1,0 +1,4 @@
+enum CacheApiManagerType {
+  SharedPreference,
+  Isar,
+}

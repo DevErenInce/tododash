@@ -1,0 +1,44 @@
+name: generation
+description: Generation package pet-in project.
+version: 0.0.1
+homepage: none
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  envied: ^0.5.4+1
+  flutter_svg: ^2.0.10+1
+  lottie: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  very_good_analysis: ^5.1.0
+
+  build_runner: ^2.4.7
+  envied_generator: ^0.5.4+1
+  flutter_gen_runner: ^5.4.0
+
+flutter_gen:
+  output: lib/src/asset/
+  integrations:
+    lottie: true
+    flutter_svg: true
+    
+  colors:
+    inputs:
+        - assets/color/colors.xml
+
+flutter:
+  assets:
+    - assets/color/
+    - assets/env/
+    - assets/icon/
+    - assets/image/
+    - assets/lottie/

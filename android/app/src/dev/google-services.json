@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "516408653455",
+    "project_id": "tododash-dev",
+    "storage_bucket": "tododash-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516408653455:android:ec1190de11a4ab37afe2fa",
+        "android_client_info": {
+          "package_name": "com.wecann.app.tododash.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3zUjxbIz368EAgELGOYeNZnzk6qTlelg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
